@@ -1,0 +1,589 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Стили шапки сайта */
+
+/*значок гамбургера*/
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #FFE11A;
+    border-radius: 1px;
+    border-color: white;
+}
+
+/*хедер*/
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*хедер (цвета)*/
+.navbar-inverse {
+    background: #FFE11A;
+    border-color: #FFE11A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: black;
+    font-family: 'Roboto';
+}
+
+/*лого сайта*/
+.img {
+    width: 206px;
+    height: 52px;
+}
+
+body {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    color: black;
+}
+
+/*цвет для ссылок*/
+a {
+    color: #bdbdbd;
+}
+
+/*при наведении на ссылку, при фокусировке на ней*/
+a:hover, a:focus {
+    color: #FFE11A;
+    text-decoration: none;
+    outline: 0;
+}
+
+p {
+    color: #bdbdbd;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+/* Стили для футера */
+
+/*расположение и цвет футера*/
+#footer {
+    background-color: #2d2d2d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*цвет иконок*/
+.social a {
+    color: #bdbdbd;
+    font-size: 30px;
+    padding: 5px;
+}
+
+/*цвет иконок при наведении*/
+.social a:hover {
+    color: #FFE11A;
+}
+
+/*заголовок в футере*/
+#footer h5 {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Стили для 1-го экрана ГС */
+
+#headerwrap {
+    background: url(../resource/img-main.png) no-repeat;
+    /*margin-top: -10px;
+    padding-top: 20px;*/
+    text-align: left;
+    background-position: center center;
+    height: 590px;
+    width: 100%;
+}
+
+#headerwrap h1 {
+    margin-top: 170px;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 824px;
+    height: 94px;
+    text-align:left;
+}
+
+#headerwrap h2 {
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    width: 600px;
+    height: 42px;
+    text-align:left;
+}
+
+#headerwrap button{
+    width: 200px;
+    height: 50px;
+    background: #FFE11A;
+    border-radius: 10px;
+    border-color: #FFE11A;
+    float:left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 100px;
+}
+
+/* Стили для буллитов на ГС */
+
+#benefit {
+    padding-top: 35px;
+    background-color: #FFE11A;
+    width:100%;
+}
+
+#benefit p {
+    color: black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/* Стили для 2-го экрана на ГС */
+
+#aboutus {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#aboutus h4 {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    line-height: 47px;
+}
+
+#aboutus p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    text-align: left;
+    width: 543px;
+    height: 147px;
+    padding-top: 80px;
+    line-height: 21px;
+}
+
+#aboutus button {
+    width: 200px;
+    height: 50px;
+    background: #FFE11A;
+    border-radius: 10px;
+    border-color: #FFE11A;
+    float: left;
+    margin-top: 150px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#aboutus img{
+    position: absolute;
+    border-radius: 50px;
+    width: 595px;
+    height: 398px;
+    float: right;
+    top: 950px;
+    left: 700px;
+}
+
+/* Стили для 3-го экрана на ГС */
+
+#partner {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    background-color: #FFE11A;
+}
+
+#partner h4 {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    line-height: 47px;
+}
+
+/* Стили для 4-го экрана на ГС */
+
+#mailing {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#mailing h4 {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    line-height: 47px;
+}
+
+#mailing p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    text-align: left;
+    width: 597px;
+    height: 42px;
+    padding-top: 15px;
+    line-height: 21px;
+}
+
+#mailing #email{
+    width: 460px;
+    height: 60px;
+    background: #E7E7E7;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 100px;
+}
+
+#mailing button {
+    width: 200px;
+    height: 50px;
+    background: #FFE11A;
+    border-radius: 10px;
+    border-color: #FFE11A;
+    float: left;
+    margin-top: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#mailing img{
+    position: absolute;
+    width: 559px;
+    height: 346px;
+    float: right;
+    top: 1940px;
+    left: 765px;
+}
+
+/* Стили для 5-го экрана на ГС */
+
+#client {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    background-color: #FFE11A;
+}
+
+#client h4 {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    line-height: 47px;
+}
+
+/* Стили для каталога */
+
+#catalog {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#catalog h4 {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    line-height: 47px;
+}
+
+#myInput {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 5px;
+    border: 2px solid #FFE11A;
+    margin-bottom: 12px;
+}
+
+#myUL {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL li a {
+    border: 2px solid #FFE11A;
+    margin-top: -1px;
+    background-color: #EFEFEF;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    display: block;
+    font-family: 'Roboto';
+}
+
+#myUL li a.header {
+    background-color: #FFE11A;
+    cursor: default;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #89cee9;
+}
+
+/* Стили валидации e-mail */
+
+#mailing .success #email {
+    border-color: #2ecc71;
+}
+
+#mailing .error #email {
+    border-color: #e74c3c;
+}
+
+#mailing .form-group small {
+    color: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+#mailing .form-group .error small {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+/* Стили для страницы "О компании" при нажатии на кнопку на втором экране */
+
+#aboutus2 {
+    padding-top: 90px;
+    padding-bottom: 300px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#aboutus2 h4 {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    line-height: 47px;
+}
+
+#aboutus2 p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    text-align: left;
+    width: 560px;
+    height: 126px;
+    padding-top: 80px;
+    line-height: 21px;
+}
+
+#aboutus2 img{
+    position: absolute;
+    width: 557px;
+    height: 402px;
+    float: right;
+    top: 200px;
+    left: 750px;
+}
+
+/* Стили для страницы "Сотрудничество" */
+
+#cooperation {
+    padding-top: 90px;
+    padding-bottom: 170px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#cooperation h4 {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    line-height: 47px;
+}
+
+#cooperation p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    text-align: left;
+    width: 574px;
+    height: 315px;
+    padding-top: 80px;
+    line-height: 21px;
+}
+
+#cooperation img{
+    position: absolute;
+    border-radius: 50px;
+    width: 538px;
+    height: 350px;
+    float: right;
+    top: 280px;
+    left: 750px;
+}
+
+#application {
+    padding-top: 70px;
+    padding-bottom: 200px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#application h4 {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    line-height: 47px;
+}
+
+#application p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    text-align: left;
+    width: 481px;
+    height: 42px;
+    padding-top: 15px;
+    line-height: 21px;
+}
+
+#application img{
+    position: absolute;
+    border-radius: 50px;
+    width: 523px;
+    height: 347px;
+    float: right;
+    top: 800px;
+    left: 750px;
+}
+
+#application button {
+    width: 200px;
+    height: 50px;
+    background: #FFE11A;
+    border-radius: 10px;
+    border-color: #FFE11A;
+    float: left;
+    margin-top: 70px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* Стили для страницы "Контакты" */
+
+#contacts {
+    padding-top: 90px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#contacts h4 {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    line-height: 47px;
+}
+
+#contacts #links {
+    padding-top: 40px;
+    padding-bottom: 90px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#contacts #links h5 {
+    font-size: 24px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: 500;
+    text-align: left;
+    line-height: 28px;
+    padding-top: 50px;
+}
+
+#contacts  #links p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    text-align: left;
+    height: 21px;
+    padding-top: 10px;
+    line-height: 21px;
+}
+
+#contacts img{
+    position: absolute;
+    border-radius: 50px;
+    width: 628px;
+    height: 398px;
+    float: right;
+    top: 250px;
+    left: 650px;
+}
